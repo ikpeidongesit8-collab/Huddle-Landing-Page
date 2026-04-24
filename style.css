@@ -92,3 +92,62 @@ article a {
 .fb:hover i, .x:hover i, .ig:hover i {
     color: rgb(232, 130, 232); 
 }
+
+/* Tablet Transition (768px) */
+@media screen and (max-width: 768px) {
+    .huddle-div {
+        grid-template-columns: 1fr; 
+        padding: 20px;
+        text-align: center;
+    }
+
+    .illustration {
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    article {
+        justify-content: center; 
+    }
+}
+
+/* Large Mobile (425px) */
+@media screen and (max-width: 425px) {
+    .huddle {
+        margin: 30px 20px;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/* Small Mobile (375px) */
+@media screen and (max-width: 375px) {
+    .illustration {
+        width: 100%;
+    }
+    
+    button {
+        width: 100%; 
+        max-width: 200px;
+    }
+}
+
+/* Extra Small Mobile (320px) */
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
